@@ -1,0 +1,314 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187572A5169D22FF0010BA14 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187572A4169D22FF0010BA14 /* UIKit.framework */; };
+		187572A7169D22FF0010BA14 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187572A6169D22FF0010BA14 /* Foundation.framework */; };
+		187572A9169D22FF0010BA14 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 187572A8169D22FF0010BA14 /* CoreGraphics.framework */; };
+		187572AF169D22FF0010BA14 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 187572AD169D22FF0010BA14 /* InfoPlist.strings */; };
+		187572B1169D22FF0010BA14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187572B0169D22FF0010BA14 /* main.m */; };
+		187572B5169D22FF0010BA14 /* SCZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187572B4169D22FF0010BA14 /* SCZAppDelegate.m */; };
+		187572B7169D22FF0010BA14 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 187572B6169D22FF0010BA14 /* Default.png */; };
+		187572B9169D22FF0010BA14 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187572B8169D22FF0010BA14 /* Default@2x.png */; };
+		187572BB169D22FF0010BA14 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 187572BA169D22FF0010BA14 /* Default-568h@2x.png */; };
+		187572BE169D22FF0010BA14 /* SCZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187572BD169D22FF0010BA14 /* SCZViewController.m */; };
+		187572C1169D22FF0010BA14 /* SCZViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187572BF169D22FF0010BA14 /* SCZViewController_iPhone.xib */; };
+		187572C4169D22FF0010BA14 /* SCZViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187572C2169D22FF0010BA14 /* SCZViewController_iPad.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		187572A0169D22FF0010BA14 /* SCZScrubGestureRecognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCZScrubGestureRecognizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		187572A4169D22FF0010BA14 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		187572A6169D22FF0010BA14 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		187572A8169D22FF0010BA14 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		187572AC169D22FF0010BA14 /* SCZScrubGestureRecognizer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SCZScrubGestureRecognizer-Info.plist"; sourceTree = "<group>"; };
+		187572AE169D22FF0010BA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		187572B0169D22FF0010BA14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187572B2169D22FF0010BA14 /* SCZScrubGestureRecognizer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SCZScrubGestureRecognizer-Prefix.pch"; sourceTree = "<group>"; };
+		187572B3169D22FF0010BA14 /* SCZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCZAppDelegate.h; sourceTree = "<group>"; };
+		187572B4169D22FF0010BA14 /* SCZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCZAppDelegate.m; sourceTree = "<group>"; };
+		187572B6169D22FF0010BA14 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		187572B8169D22FF0010BA14 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		187572BA169D22FF0010BA14 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		187572BC169D22FF0010BA14 /* SCZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SCZViewController.h; sourceTree = "<group>"; };
+		187572BD169D22FF0010BA14 /* SCZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SCZViewController.m; sourceTree = "<group>"; };
+		187572C0169D22FF0010BA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCZViewController_iPhone.xib; sourceTree = "<group>"; };
+		187572C3169D22FF0010BA14 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SCZViewController_iPad.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1875729D169D22FF0010BA14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187572A5169D22FF0010BA14 /* UIKit.framework in Frameworks */,
+				187572A7169D22FF0010BA14 /* Foundation.framework in Frameworks */,
+				187572A9169D22FF0010BA14 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18757295169D22FF0010BA14 = {
+			isa = PBXGroup;
+			children = (
+				187572AA169D22FF0010BA14 /* SCZScrubGestureRecognizer */,
+				187572A3169D22FF0010BA14 /* Frameworks */,
+				187572A1169D22FF0010BA14 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187572A1169D22FF0010BA14 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187572A0169D22FF0010BA14 /* SCZScrubGestureRecognizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187572A3169D22FF0010BA14 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				187572A4169D22FF0010BA14 /* UIKit.framework */,
+				187572A6169D22FF0010BA14 /* Foundation.framework */,
+				187572A8169D22FF0010BA14 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		187572AA169D22FF0010BA14 /* SCZScrubGestureRecognizer */ = {
+			isa = PBXGroup;
+			children = (
+				187572B3169D22FF0010BA14 /* SCZAppDelegate.h */,
+				187572B4169D22FF0010BA14 /* SCZAppDelegate.m */,
+				187572BC169D22FF0010BA14 /* SCZViewController.h */,
+				187572BD169D22FF0010BA14 /* SCZViewController.m */,
+				187572BF169D22FF0010BA14 /* SCZViewController_iPhone.xib */,
+				187572C2169D22FF0010BA14 /* SCZViewController_iPad.xib */,
+				187572AB169D22FF0010BA14 /* Supporting Files */,
+			);
+			path = SCZScrubGestureRecognizer;
+			sourceTree = "<group>";
+		};
+		187572AB169D22FF0010BA14 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187572AC169D22FF0010BA14 /* SCZScrubGestureRecognizer-Info.plist */,
+				187572AD169D22FF0010BA14 /* InfoPlist.strings */,
+				187572B0169D22FF0010BA14 /* main.m */,
+				187572B2169D22FF0010BA14 /* SCZScrubGestureRecognizer-Prefix.pch */,
+				187572B6169D22FF0010BA14 /* Default.png */,
+				187572B8169D22FF0010BA14 /* Default@2x.png */,
+				187572BA169D22FF0010BA14 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1875729F169D22FF0010BA14 /* SCZScrubGestureRecognizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187572C7169D22FF0010BA14 /* Build configuration list for PBXNativeTarget "SCZScrubGestureRecognizer" */;
+			buildPhases = (
+				1875729C169D22FF0010BA14 /* Sources */,
+				1875729D169D22FF0010BA14 /* Frameworks */,
+				1875729E169D22FF0010BA14 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SCZScrubGestureRecognizer;
+			productName = SCZScrubGestureRecognizer;
+			productReference = 187572A0169D22FF0010BA14 /* SCZScrubGestureRecognizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18757297169D22FF0010BA14 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SCZ;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = StCredZero;
+			};
+			buildConfigurationList = 1875729A169D22FF0010BA14 /* Build configuration list for PBXProject "SCZScrubGestureRecognizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 18757295169D22FF0010BA14;
+			productRefGroup = 187572A1169D22FF0010BA14 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1875729F169D22FF0010BA14 /* SCZScrubGestureRecognizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1875729E169D22FF0010BA14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187572AF169D22FF0010BA14 /* InfoPlist.strings in Resources */,
+				187572B7169D22FF0010BA14 /* Default.png in Resources */,
+				187572B9169D22FF0010BA14 /* Default@2x.png in Resources */,
+				187572BB169D22FF0010BA14 /* Default-568h@2x.png in Resources */,
+				187572C1169D22FF0010BA14 /* SCZViewController_iPhone.xib in Resources */,
+				187572C4169D22FF0010BA14 /* SCZViewController_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1875729C169D22FF0010BA14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187572B1169D22FF0010BA14 /* main.m in Sources */,
+				187572B5169D22FF0010BA14 /* SCZAppDelegate.m in Sources */,
+				187572BE169D22FF0010BA14 /* SCZViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		187572AD169D22FF0010BA14 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187572AE169D22FF0010BA14 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		187572BF169D22FF0010BA14 /* SCZViewController_iPhone.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187572C0169D22FF0010BA14 /* en */,
+			);
+			name = SCZViewController_iPhone.xib;
+			sourceTree = "<group>";
+		};
+		187572C2169D22FF0010BA14 /* SCZViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187572C3169D22FF0010BA14 /* en */,
+			);
+			name = SCZViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187572C5169D22FF0010BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		187572C6169D22FF0010BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187572C8169D22FF0010BA14 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCZScrubGestureRecognizer/SCZScrubGestureRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "SCZScrubGestureRecognizer/SCZScrubGestureRecognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		187572C9169D22FF0010BA14 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SCZScrubGestureRecognizer/SCZScrubGestureRecognizer-Prefix.pch";
+				INFOPLIST_FILE = "SCZScrubGestureRecognizer/SCZScrubGestureRecognizer-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1875729A169D22FF0010BA14 /* Build configuration list for PBXProject "SCZScrubGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187572C5169D22FF0010BA14 /* Debug */,
+				187572C6169D22FF0010BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187572C7169D22FF0010BA14 /* Build configuration list for PBXNativeTarget "SCZScrubGestureRecognizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187572C8169D22FF0010BA14 /* Debug */,
+				187572C9169D22FF0010BA14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18757297169D22FF0010BA14 /* Project object */;
+}
